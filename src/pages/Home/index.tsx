@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { MdAddShoppingCart } from 'react-icons/md';
 
 import { ProductList } from './styles';
-import { api } from '../../services/api';
+import { api } from '../../pages/api/api';
 import { formatPrice } from '../../util/format';
 import { useCart } from '../../hooks/useCart';
 
